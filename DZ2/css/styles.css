@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-
+/* меню */
 .list {
     margin-left: 315px;
     font-family: 'Playfair Display', serif;
@@ -45,7 +45,7 @@ img {
     width: 420px;
     height: 280px;
 }
-
+/* категория */
 .title {
     margin-top: 65px;
     margin-bottom: 32px;
@@ -56,7 +56,7 @@ img {
     color: #B4AD9E;
     line-height: 16px;
 }
-
+/*  */
 .heading {
     margin-bottom: 40px;
     font-family: 'Playfair Display', serif;
