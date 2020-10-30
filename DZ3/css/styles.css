@@ -30,17 +30,17 @@
 
 a::after {
     display: block;
-	position: absolute;
-    left: 0; 
-	width: 0;
-	height: 2px; 
-	background-color: #F38181; 
-	content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F38181;
+    content: "";
     transition: 0.3s ease-out;
 }
 
-a:hover{
-    color:#F38181; 
+a:hover {
+    color: #F38181;
 }
 
 .list li {
@@ -77,7 +77,7 @@ a:hover{
 
 .cards {
     display: flex;
-    align-content:space-between;
+    align-content: space-between;
     align-items: flex-start;
     height: 150px;
     width: 1168px;
@@ -85,10 +85,10 @@ a:hover{
 
 .cards2 {
     display: flex;
-    align-content:space-between;
+    align-content: space-between;
     align-items: flex-start;
     height: 150px;
-    width: 1168px;	    
+    width: 1168px;
 }
 
 .card {
@@ -96,12 +96,12 @@ a:hover{
     margin-left: 50px;
 }
 
- a {
+a {
     position: relative;
-    color: #95E1D3; 
-	cursor: pointer;
-	line-height: 1; 
-	text-decoration: none;
+    color: #95E1D3;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
 }
 
 .copyright {
@@ -132,22 +132,22 @@ a:hover{
 
 a:hover:after,
 a:focus:after {
-	width: 45%;
+    width: 45%;
 }
 
 .text {
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 22px;
-color: #B6B6B6;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #B6B6B6;
 }
 
-.allcards{
-margin-left: 400px;
+.allcards {
+    margin-left: 400px;
 }
 
-li{
+li {
     list-style: none;
 
 }
