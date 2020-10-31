@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .logo {
-    position: absolute;
-    width: 98px;
-    height: 33px;
-    left: 400px;
-    top: 17px;
-
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -18,15 +12,7 @@
     color: #95E1D3;
 }
 
-.list {
-    text-align: right;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 14px;
-    margin-top: 55px;
-    margin-right: 250px;
-}
+
 
 a::after {
     display: block;
@@ -43,57 +29,30 @@ a:hover {
     color: #F38181;
 }
 
-.list li {
+li {
     display: inline-block;
     margin-right: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 }
 
 .Title {
-    text-align: center;
-    margin-top: 70px;
-
     font-family: 'Kaushan Script', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 35px;
+    text-align: center;
 }
 
 .services {
-    text-align: center;
-    justify-content: center;
-
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
-
-    font-variant: small-caps;
-
     color: #333333;
 
-}
-
-.cards {
-    display: flex;
-    align-content: space-between;
-    align-items: flex-start;
-    height: 150px;
-    width: 1168px;
-}
-
-.cards2 {
-    display: flex;
-    align-content: space-between;
-    align-items: flex-start;
-    height: 150px;
-    width: 1168px;
-}
-
-.card {
-
-    margin-left: 50px;
 }
 
 a {
@@ -104,24 +63,7 @@ a {
     text-decoration: none;
 }
 
-.copyright {
-    text-align: left;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-}
-
-.search {
-    text-align: right;
-}
-
-.justtext {
-    text-align: center;
-}
-
-.cardtitle {
+.title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -143,20 +85,53 @@ a:focus:after {
     color: #B6B6B6;
 }
 
-.allcards {
-    margin-left: 400px;
-}
-
-li {
-    list-style: none;
-
-}
-
 .img-block {
+display: flex;
+height: 100%;
+width: 11.17%;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.header-container {
     display: flex;
-    height: 100%;
-    width: 11.17px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 50px;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 60.83vw;
+}
+
+.line {
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background-color: #F38181;
+}
+
+main {
+    display: flex;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-block h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+}
+
+.benefit {
+    display: flex;
 }
