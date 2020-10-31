@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .logo {
+    position: absolute;
+    width: 98px;
+    height: 33px;
+    left: 360px;
+    top: 17px;
+
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -86,23 +92,16 @@ a:focus:after {
 }
 
 .img-block {
-display: flex;
-height: 100%;
-width: 11.17%;
-justify-content: flex-start;
-align-items: flex-start;
+    display: flex;
+    height: 100%;
+    width: 11.17%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-right: 30px;
 }
 
-.header-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items:center;
-}
 
-header {
-    display: flex;
-    justify-content: center;
-}
 
 .container {
     width: 60.83vw;
@@ -113,10 +112,12 @@ header {
     height: 4px;
     width: 60px;
     background-color: #F38181;
+    margin-bottom: 40px;
 }
 
 main {
     display: flex;
+    justify-content: center;
 }
 
 .info-block {
@@ -130,8 +131,20 @@ main {
 }
 
 .list {
+    margin-top: 55px;
+    text-align-last: right;
+    margin-right: 180px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .benefit {
     display: flex;
+    width: 28.33%;
+    /* flex-wrap: wrap; */
 }
