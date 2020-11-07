@@ -6,18 +6,19 @@
     margin: 0;
 }
 
-.logo {
-    position: absolute;
-    width: 98px;
-    height: 33px;
-    left: 360px;
-    top: 15px;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
+    margin-top: 17px;
 
     color: #95E1D3;
 }
@@ -41,7 +42,6 @@
 
 li {
     display: inline-block;
-    margin-right: 60px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
@@ -85,7 +85,7 @@ li {
 
 a:hover:after,
 a:focus:after {
-    width: 45%;
+    width: 100%;
 }
 
 .text {
@@ -137,8 +137,9 @@ main {
 
 .list {
     margin-top: 32px;
-    text-align-last: right;
-    margin-right: 180px;
+    justify-content: space-between;
+    display: flex;
+    width: 470px;
 }
 
 .benefits {
@@ -155,6 +156,10 @@ main {
     margin-bottom: 105px;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+}
 /* вторая часть */
 /* вторая часть */
 /* вторая часть */

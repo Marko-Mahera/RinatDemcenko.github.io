@@ -85,7 +85,7 @@ li {
 
 a:hover:after,
 a:focus:after {
-    width: 45%;
+    width: 100%;
 }
 
 .text {
