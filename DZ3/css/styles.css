@@ -138,6 +138,9 @@ main {
 
 .list {
     margin-top: 32px;
+    justify-content: space-between;
+    display: flex;
+    
 }
 
 .benefits {
