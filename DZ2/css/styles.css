@@ -35,6 +35,7 @@ a {
 .card {
     display: inline-block;
     width: 420px;
+    padding-bottom: 130px;
 }
 
 .card:nth-child(2n+1) {
@@ -80,7 +81,6 @@ img {
     top: 0px;
 
     margin-left: 500px;
-    margin-top: 50px;
     border: 1px solid #626262;
     background-color: #ffff;
     color: #B4AD9E;
@@ -92,4 +92,20 @@ a:hover{
 
 .btn:hover{
     background-color:#F0E68C;
+}
+.text {
+
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #626262;
+
+}
+
+
+.margin {
+    padding-bottom: 130px;
 }
