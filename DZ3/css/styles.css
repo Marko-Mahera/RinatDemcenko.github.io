@@ -42,7 +42,6 @@
 
 li {
     display: inline-block;
-    margin-right: 60px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
@@ -140,7 +139,7 @@ main {
     margin-top: 32px;
     justify-content: space-between;
     display: flex;
-    
+    width: 470px;
 }
 
 .benefits {
