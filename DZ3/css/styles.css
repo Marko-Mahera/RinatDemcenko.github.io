@@ -6,18 +6,19 @@
     margin: 0;
 }
 
-.logo {
-    position: absolute;
-    width: 98px;
-    height: 33px;
-    left: 360px;
-    top: 15px;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
+    margin-top: 17px;
 
     color: #95E1D3;
 }
@@ -137,8 +138,6 @@ main {
 
 .list {
     margin-top: 32px;
-    text-align-last: right;
-    margin-right: 180px;
 }
 
 .benefits {
@@ -153,4 +152,9 @@ main {
     width: 28.33%;
     /* flex-wrap: wrap; */
     margin-bottom: 105px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
 }
