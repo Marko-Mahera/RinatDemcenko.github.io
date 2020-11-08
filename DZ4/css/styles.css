@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -156,10 +157,11 @@ main {
     margin-bottom: 100px;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
 }
+
 /* вторая часть */
 /* вторая часть */
 /* вторая часть */
@@ -187,19 +189,19 @@ header{
     margin-top: 40px;
 }
 
-.first-man .man{
-    background-image: url(../images/img7.svg) ;
+.first-man .man {
+    background-image: url(../images/img7.svg);
 }
 
-.second-man .man{
-    background-image: url(../images/img8.svg) ;
+.second-man .man {
+    background-image: url(../images/img8.svg);
 }
 
-.third-man .man{
-    background-image: url(../images/img9.svg) ;
+.third-man .man {
+    background-image: url(../images/img9.svg);
 }
 
-.person{
+.person {
     width: 30.95%;
 }
 
@@ -211,6 +213,7 @@ header{
     line-height: 17px;
     color: #333333;
     text-align: center;
+    margin-top: 30px;
 }
 
 .job {
@@ -222,7 +225,7 @@ header{
     text-align: center;
 }
 
-.team{
+.team {
     display: flex;
     justify-content: space-between;
 }
@@ -230,24 +233,27 @@ header{
 .person {
     position: relative;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
     width: 30.95%;
+    padding-left: -10px;
+    padding-right: -10px;
 }
 
 .gradient {
+    display: none;
     position: absolute;
     top: -10px;
-    left: -10px;
+    left: -20px;
     width: 100%;
     min-height: 470px;
-    display: flex;
+    min-width: 380px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
 }
 
-.social-item{
+.social-item {
     width: 57px;
     height: 57px;
     display: flex;
@@ -257,27 +263,28 @@ header{
     background: #FCE38A;
 }
 
-.social-item:hover{
+.social-item:hover {
     background: #95E1D3;
 }
 
-.social{
+.social {
     display: flex;
 }
 
-.copy{
+.copy {
     font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 22px;
 }
 
-.orange-text{
+.orange-text {
     color: #F38181;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-between;
 }
@@ -286,22 +293,24 @@ line-height: 17px;
     margin-bottom: 80px;
 }
 
-.margin{
+.margin {
     margin-bottom: 22px;
 }
 
 .footer-form input {
     height: 39px;
     padding-left: 10px;
+    border: 1px solid #B6B6B6;
+    margin-bottom: 10px;
 }
 
-input::placeholder{
-    color:#B6B6B6;
+input::placeholder {
+    color: #B6B6B6;
     font-family: Roboto;
-font-style: italic;
-font-weight: 300;
-font-size: 14px;
-line-height: 16px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .footer-form button {
@@ -309,8 +318,35 @@ line-height: 16px;
     height: 40px;
     background: #95E1D3;
     font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    border:none;
+    color: #FFFFFF;
+}
+
+.first-man:hover .gradient {
+    display: flex;
+}
+
+.second-man:hover .gradient {
+    display: flex;
+}
+
+.third-man:hover .gradient {
+    display: flex;
+}
+
+.footer-line {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #B6B6B6;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
