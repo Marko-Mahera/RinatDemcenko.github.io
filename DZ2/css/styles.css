@@ -14,11 +14,12 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    margin-top: 30px;
+    margin-top: 71px;
+    margin-bottom: 88px;
 }
 
 .list li {
-    margin-right: 100px;
+    margin-right: 99px;
     display: inline-block;
 }
 
@@ -77,8 +78,6 @@ img {
 
     width: 165px;
     height: 60px;
-    left: 0px;
-    top: 0px;
 
     margin-left: 500px;
     border: 1px solid #626262;
@@ -105,7 +104,9 @@ color: #626262;
 
 }
 
-
-.margin {
-    padding-bottom: 130px;
+.cardsimple {
+    display: inline-block;
+    width: 420px;
+    padding-bottom: 90px;
+    margin-right: 66px;
 }
